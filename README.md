@@ -78,7 +78,7 @@ This project showcases my ability to design and develop a **full-fledged banking
 
 The project follows a clean, layered architecture:
 
-text
+text```
 src
 ├── controller
 │   └── BankingController.java
@@ -95,7 +95,7 @@ src
 │   └── AppConfig.java
 ├── util
 │   └── ApiResponse.java
-└── Application.java
+└── Application.java```
 
 
 ### Architecture Layers Explained
