@@ -76,16 +76,26 @@ This project showcases my ability to design and develop a **full-fledged banking
 
 ## 🏗 Architecture Overview
 
-The application follows a **clean, layered architecture**:
+The project follows a clean, layered architecture:
 
-src/
-├── controller/ # REST API endpoints
-├── service/ # Business logic
-├── repository/ # Data access layer
-├── entity/ # Domain models
-├── security/ # Authentication & authorization
-├── config/ # Application configuration
-└── util/ # Utilities & error handling
+text
+src
+├── controller
+│   └── BankingController.java
+├── service
+│   └── BankingService.java
+├── repository
+│   └── BankingRepository.java
+├── entity
+│   └── Account.java
+├── security
+│   ├── JwtFilter.java
+│   └── SecurityConfig.java
+├── config
+│   └── AppConfig.java
+├── util
+│   └── ApiResponse.java
+└── Application.java
 
 
 ### Architecture Layers Explained
@@ -111,7 +121,7 @@ src/
 
 ### 1️⃣ Clone the Repository
 
-```bash```
+bash
 git clone https://github.com/Shashankcode9/Banking_Management_System_APIs.git
 cd Banking_Management_System_APIs
 
